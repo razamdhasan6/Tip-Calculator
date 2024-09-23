@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container1">
+                <h1>Bill Spliter</h1>
+            <h3>Bill Amount</h3>
+            <input class="bill-input" type="number" placeholder="₹">
+            <h3>Select Tip</h3>
+            <div class="select-tip">
+                <button class="per-btn" disabled>5%</button>
+                <button class="per-btn" disabled>10%</button>
+                <button class="per-btn" disabled>15%</button>
+                <button class="per-btn" disabled>25%</button>
+                <button class="per-btn" disabled>50%</button>
+                <button class="per-btn" disabled>75%</button>
+            </div>
+            <input class="custom-tip" type="text" placeholder="Custom Tip" disabled>
+            <h3>Number of People</h3>
+            <input class="people" type="text" placeholder="No of People" disabled>
+            <button class="bill-btn" disabled>Generate Bill</button>
+        </div>
+        <div class="container2">
+            <h3>Tip Amount <span class="tip-amount">₹0.00</span></h3>
+            <h3>Total Amount <span class="total-amount">₹0.00</span></h3>
+            <h3>Each Person Bill <span class="each-person">₹0.00</span></h3>
+            <button class="reset-btn" disabled>Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
