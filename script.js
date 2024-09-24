@@ -21,6 +21,9 @@ billInputEle.addEventListener('keyup', () => {
         resetBtnEle.disabled = true
         customTipInputEle.value=''
         noOfPeopleInputEle.value = ''
+        tipAmountEle.textContent='₹0.00'
+        totalAmount.textContent ='₹0.00'
+        eachPersonAmountEle.textContent = '₹0.00'
         selectTipBtnEle.forEach(btn => {
             btn.style.border='none'
         })
